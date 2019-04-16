@@ -1,0 +1,43 @@
+.row {
+  @mixin clearFix;
+
+  @mixin atMedium {
+    &__medium-4 {
+      float: left;
+      width: 33.3333%;
+
+      &--larger {
+        width: 37%;
+      }
+    }
+
+    &__medium-8 {
+      float: left;
+      width: 66.6666%;
+
+      &--smaller {
+        width: 63%;
+      }
+    }
+  }
+
+  &--b-margin-unitl-medium {
+    margin-bottom: 1rem;
+  }
+
+  @mixin atMedium {
+    &--b-margin-unitl-medium {
+      margin-bottom: 0;
+    }
+
+    &--gutters {
+      & > div {
+        padding-right: 65px;
+      }
+
+      & > div:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
