@@ -455,6 +455,11 @@ a {
         width: 37%;
       }
 
+    .row__medium-6 {
+      float: left;
+      width: 50%;
+    }
+
     .row__medium-8 {
       float: left;
       width: 66.6666%;
@@ -464,13 +469,25 @@ a {
         width: 63%;
       }
   }
-.row--b-margin-unitl-medium {
-    margin-bottom: 1rem;
+.row--b-margin-until-medium {
+    margin-bottom: 1.5rem;
   }
 @media (min-width: 800px) {
-    .row--b-margin-unitl-medium {
+.row {
+
+    /* &--gutters-large {
+      margin-right: -100px;
+
+      & > div {
+        padding-right: 100px;
+      }
+    } */
+}
+    .row--b-margin-until-medium {
       margin-bottom: 0;
     }
+      /* margin-right: -65px; */
+
       .row--gutters > div {
         padding-right: 65px;
       }
@@ -489,4 +506,91 @@ a {
   }
 .generic-content-container p a {
     font-weight: 700;
+  }
+.section-title {
+  font-size: 3.75rem;
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.55rem;
+  margin: 0;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+@media (min-width: 530px) {
+.section-title {
+    font-size: 3.75rem;
+    margin-bottom: 4.5rem;
+    margin-top: 2rem
+}
+  }
+@media (min-width: 800px) {
+.section-title {
+    margin-bottom: 6rem;
+    margin-top: 0
+}
+  }
+.section-title__icon {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
+  }
+@media (min-width: 530px) {
+.section-title__icon {
+      display: inline-block;
+      margin: 0;
+      margin-right: 0.5rem
+  }
+  }
+.section-title strong {
+    font-weight: 500;
+  }
+.icon {
+  width: auto;
+}
+.feature-item {
+  position: relative;
+  padding-left: 0;
+  margin-bottom: 3rem;
+}
+@media (min-width: 530px) {
+.feature-item {
+    margin-bottom: 5rem;
+    padding-left: 100px
+}
+  }
+.feature-item__icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+@media (min-width: 530px) {
+.feature-item__icon {
+      position: absolute;
+      left: 0;
+      margin-bottom: 0
+  }
+  }
+.feature-item__title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    text-align: center;
+  }
+@media (min-width: 530px) {
+.feature-item__title {
+      text-align-last: left;
+      font-size: 1.875rem
+  }
+  }
+.feature-item__text {
+    line-height: 1.65;
+    font-weight: 300;
+    margin: 0;
+  }
+@media (min-width: 530px) {
+.feature-item__text {
+      font-size: 1.125rem
+  }
   }

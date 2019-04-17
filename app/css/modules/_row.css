@@ -11,6 +11,11 @@
       }
     }
 
+    &__medium-6 {
+      float: left;
+      width: 50%;
+    }
+
     &__medium-8 {
       float: left;
       width: 66.6666%;
@@ -21,16 +26,18 @@
     }
   }
 
-  &--b-margin-unitl-medium {
-    margin-bottom: 1rem;
+  &--b-margin-until-medium {
+    margin-bottom: 1.5rem;
   }
 
   @mixin atMedium {
-    &--b-margin-unitl-medium {
+    &--b-margin-until-medium {
       margin-bottom: 0;
     }
 
     &--gutters {
+      /* margin-right: -65px; */
+
       & > div {
         padding-right: 65px;
       }
@@ -39,5 +46,13 @@
         padding-right: 0;
       }
     }
+
+    /* &--gutters-large {
+      margin-right: -100px;
+
+      & > div {
+        padding-right: 100px;
+      }
+    } */
   }
 }
