@@ -594,3 +594,8 @@ a {
       font-size: 1.125rem
   }
   }
+@media (min-width: 800px) {
+.feature-item--no-mb-until-medium {
+      margin-bottom: 0
+  }
+  }

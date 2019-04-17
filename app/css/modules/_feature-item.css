@@ -40,4 +40,10 @@
       font-size: 1.125rem;
     }
   }
+
+  &--no-mb-until-medium {
+    @mixin atMedium {
+      margin-bottom: 0;
+    }
+  }
 }
