@@ -1,0 +1,18 @@
+/*
+  Do not edit app/css/modules/_sprite.css directly as it is genereate autmatically by Gulp
+  Instead edit gulp/templates/sprite.css
+*/
+
+{{#shapes}}
+  {{#first}}
+  .svg-icon {
+    background-image: url('/tmp/sprite/css/{{{sprite}}}');
+  }
+  {{/first}}
+
+  .svg-icon--{{base}} {
+    width: {{width.outer}}px;
+    height: {{height.outer}}px;
+    background-position: {{position.relative.xy}};
+  }
+{{/shapes}}

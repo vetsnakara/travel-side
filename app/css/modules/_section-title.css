@@ -19,15 +19,15 @@
   }
 
   &__icon {
-    width: auto;
+    /* width: auto; */
     display: block;
     margin: 0 auto;
     margin-bottom: 0.8rem;
 
     @mixin atSmall {
+      display: inline-block;
       position: relative;
       top: 10px;
-      display: inline-block;
       margin: 0;
       margin-right: 0.5rem;
     }

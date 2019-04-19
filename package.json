@@ -19,7 +19,10 @@
   "homepage": "https://github.com/vetsnakara/travel-side#readme",
   "dependencies": {
     "autoprefixer": "^9.5.1",
+    "del": "^4.1.0",
     "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-svg-sprite": "^1.5.0",
     "jquery": "^3.4.0",
     "normalize.css": "^8.0.1",
     "postcss-import": "^12.0.1",

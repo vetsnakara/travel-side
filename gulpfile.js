@@ -3,5 +3,5 @@ global.$ = {
 };
 
 module.exports = {
-  watch: require("./gulp/tasks/watch")
+  default: require("./gulp/tasks/default")
 };
