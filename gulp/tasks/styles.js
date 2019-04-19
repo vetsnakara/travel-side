@@ -9,13 +9,12 @@ const plumber = require("gulp-plumber");
 
 const { browserSync } = $;
 
-const stylesTask = () => {
-  return gulp
+const stylesTask = () =>
+  gulp
     .src("./app/css/styles.css")
     .pipe(plumber())
     .pipe(postCSS([cssImport, mixins, cssVars, nested, autoprefixer]))
     .pipe(gulp.dest("./app/tmp/styles"))
     .pipe(browserSync.stream());
-};
 
 module.exports = stylesTask;

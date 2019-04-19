@@ -22,3 +22,6 @@
 @import "modules/_icon";
 @import "modules/_feature-item";
 @import "modules/_testimonial";
+
+/* SVG Sprite */
+@import "modules/_sprite";

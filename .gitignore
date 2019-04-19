@@ -1,2 +1,3 @@
 node_modules/
 app/tmp
+app/css/modules/_sprite.css
