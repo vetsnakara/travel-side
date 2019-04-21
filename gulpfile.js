@@ -3,5 +3,6 @@ global.$ = {
 };
 
 module.exports = {
-  default: require("./gulp/tasks/default")
+  default: require("./gulp/tasks/default"),
+  webpack: require("./gulp/tasks/scripts")
 };
