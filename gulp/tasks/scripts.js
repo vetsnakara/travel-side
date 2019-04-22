@@ -1,4 +1,3 @@
-const gulp = require("gulp");
 const webpack = require("webpack");
 const notifier = require("node-notifier");
 
