@@ -34,6 +34,9 @@
 
     @mixin atMedium {
       background-color: transparent;
+      &--current {
+        color: $secondary-color;
+      }
     }
   }
 }
