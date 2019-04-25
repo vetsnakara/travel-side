@@ -4,5 +4,6 @@ global.$ = {
 
 module.exports = {
   default: require("./gulp/tasks/default"),
-  webpack: require("./gulp/tasks/scripts")
+  webpack: require("./gulp/tasks/scripts"),
+  modernizr: require("./gulp/tasks/modernizr")
 };

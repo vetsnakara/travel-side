@@ -81,7 +81,7 @@
     }
   }
   @mixin atLarge {
-    &--equal-height-large {
+    .flexbox &--equal-height-large {
       float: none;
       display: flex;
     }

@@ -1,3 +1,4 @@
+const { series } = require("gulp");
 const webpack = require("webpack");
 const notifier = require("node-notifier");
 
@@ -32,4 +33,4 @@ const scriptsTask = done => {
   }
 };
 
-module.exports = scriptsTask;
+module.exports = series(scriptsTask);
