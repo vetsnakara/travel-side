@@ -1,11 +1,12 @@
-const gulp = require("gulp");
+const { series } = require("gulp");
 const watch = require("./watch");
 const sprite = require("./sprites");
 const scripts = require("./scripts");
 const styles = require("./styles");
 const clean = require("./clean");
+const modernizr = require("./modernizr");
 
-module.exports = gulp.series(
-  gulp.series(clean, sprite, gulp.parallel(styles, scripts)),
+module.exports = series(
+  series(clean, sprite, styles, modernizr, scripts),
   watch
 );

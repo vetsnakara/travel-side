@@ -6,8 +6,12 @@
 {{#shapes}}
   {{#first}}
   .svg-icon {
-    background-image: url('/tmp/sprite/css/{{{sprite}}}');
+    background-image: url('/tmp/sprite/css/sprite.svg');
     text-indent: -9999px;
+  }
+
+  .no-svg .svg-icon {
+    background-image: url('/tmp/sprite/css/sprite.png');
   }
   {{/first}}
 

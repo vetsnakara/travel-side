@@ -1,5 +1,5 @@
 import $ from "jquery";
-import smoothScroll from "jquery-smooth-scroll";
+import "jquery-smooth-scroll";
 import "../../../../node_modules/waypoints/lib/noframework.waypoints";
 
 class StickyHeader {
