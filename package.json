@@ -49,6 +49,7 @@
     "babel-loader": "^8.0.5",
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-plumber": "^1.2.1",
     "node-notifier": "^5.4.0",
     "webpack": "^4.30.0",
